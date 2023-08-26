@@ -30,7 +30,10 @@
     justify-content:space-around;
     height: 100vh;
     color: white;
-    background-image: url("./images/background.png"),linear-gradient(45deg,#313131,#000);
+    background-image: url("./images/background.png"),linear-gradient(45deg,#000 ,#313131)
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 50px;
@@ -52,3 +55,21 @@
     border: none;
     font-size: 20px;
 }
+
+/* about styles here  */
+.about-text{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.about-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-des{
+     font-weight:500 ;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
