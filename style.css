@@ -22,3 +22,33 @@
     padding: 7px 7px 7px 7px;
     font-size: 18px;
 }
+
+/* bannner styles here  */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 100vh;
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#313131,#000);
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.describtion{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner-photo{
+    width: 500px;
+}
+.button{
+    background-color: #ff0000;
+    color: white;
+    border-radius: 7px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    font-size: 20px;
+}
